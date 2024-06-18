@@ -194,8 +194,8 @@ end
 GRAPHICS-WINDOW
 210
 10
-610
-411
+1026
+827
 -1
 -1
 8.0
@@ -208,10 +208,10 @@ GRAPHICS-WINDOW
 1
 1
 1
--24
-24
--24
-24
+-50
+50
+-50
+50
 0
 0
 1
@@ -253,41 +253,38 @@ NIL
 1
 
 @#$#@#$#@
-## WHAT IS IT?
+# Vida Artificial 
 
-(a general understanding of what the model is trying to show or explain)
+## Integrantes
+- Carlos Eduardo Guerrero Jaramillo
+- Jorge Augusto Estacio Almeciga
+- Santiago Pérez Pino
 
-## HOW IT WORKS
+Universidad del Valle - Sede Tuluá
+2024
 
-(what rules the agents use to create the overall behavior of the model)
 
-## HOW TO USE IT
+## Instrucciones para ejecutar el código
 
-(how to use the model, including a description of each of the items in the Interface tab)
+Para ejecutar este modelo en NetLogo, se deben seguir los siguientes pasos:
 
-## THINGS TO NOTICE
+1. **Instalar NetLogo:**
+   - Descarga e instala NetLogo desde el sitio oficial: [NetLogo Downloads](https://ccl.northwestern.edu/netlogo/download.shtml).
 
-(suggested things for the user to notice while running the model)
+2. **Descargar Modelo:**
+    - Descarga el archivo `ProyectoFinal.nlogo` que se encuentra en este repositorio.
 
-## THINGS TO TRY
+2. **Abrir el proyecto:**
+   - Una vez que NetLogo esté instalado, abrir la aplicación NetLogo.
+   - En la aplicación, selecciona `Archivo > Abrir...` y navega hasta el archivo `.nlogo` del proyecto.
+  
+4. **Ejecutar el modelo:**
+   - Haz clic en el botón `Inicializar` para inicializar la simulación.
+   - Luego, haz clic en el botón `Avanzar` para comenzar la simulación. La simulación continuará ejecutándose en bucle hasta que hagas clic en el botón `Avanzar` nuevamente para detenerla.
 
-(suggested things for the user to try to do (move sliders, switches, etc.) with the model)
+## Descripción del modelo
 
-## EXTENDING THE MODEL
-
-(suggested things to add or change in the Code tab to make the model more complicated, detailed, accurate, etc.)
-
-## NETLOGO FEATURES
-
-(interesting or unusual features of NetLogo that the model uses, particularly in the Code tab; or where workarounds were needed for missing features)
-
-## RELATED MODELS
-
-(models in the NetLogo Models Library and elsewhere which are of related interest)
-
-## CREDITS AND REFERENCES
-
-(a reference to the model's URL on the web if it has one, as well as any other necessary credits, citations, and links)
+Este modelo utiliza un enfoque de autómatas celulares bidimensional para simular la segregación económica en una ciudad. Cada `patch` representa una celda en la cuadrícula, que puede pertenecer a uno de varios estratos económicos. Los `patches` pueden cambiar de estado (color) basado en las reglas de transición que consideran la mayoría de los vecinos y su estrato económico.
 @#$#@#$#@
 default
 true
