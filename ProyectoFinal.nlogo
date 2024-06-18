@@ -38,7 +38,7 @@ to setup
     set esPotrero false
   ]
 
-  ; Calcular el número de patches de edificios especiales (en este caso un 10% del total de la ciudad)
+  ; Calcular el número de patches de edificios especiales (en este caso un 5% del total de la ciudad)
   let total-patches count patches
   let potreros total-patches * 0.05
 
